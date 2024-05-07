@@ -14,11 +14,19 @@
     justify-content: center;
 }
 
+.calc{
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .calculator{
 
     background: rgb(102, 101, 101);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 button{
@@ -29,10 +37,12 @@ button{
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    color: aliceblue;
-    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 3rem;
     cursor: pointer;
     margin: 10px;
+    font-weight: bold;
     
 }
 
@@ -49,6 +59,10 @@ button{
     box-shadow: none;
     width: 60px;
     border-radius: 10px;
+    background-color: aliceblue;
+}
+.equal{
+    color: rgb(241, 160, 7);
 }
 
 button:hover{
