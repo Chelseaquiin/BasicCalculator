@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 
-.calculator form input{
+button{
     border: 0;
     outline: 0;
     width: 60px;
@@ -32,18 +32,28 @@
     color: aliceblue;
     font-size: 20px;
     cursor: pointer;
-    margin: 10px
+    margin: 10px;
+    
 }
 
-form .display{
+.display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
 
-form .display input{
+.display input{
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    width: 60px;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 30%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
 }
